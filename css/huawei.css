@@ -1,0 +1,133 @@
+/*
+* @Author: 刘海涛
+* @Date:   2017-05-28 16:05:17
+* @Last Modified by:   刘海涛
+* @Last Modified time: 2017-06-04 17:37:17
+*/
+body{
+	margin-top: 86px;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+/* ----------媒体查询----------- */
+@media (max-width:768px){
+	/* ---------main-------------- */
+	.main #videoHW h1{
+		position: absolute;
+		top:12%;
+		left:10%;
+	}	
+	.main #videoHW div{
+		width: 69px;
+		position: absolute;
+		top:40%;
+		left:20%;
+		overflow: hidden;
+	}
+	.main a{color: #333;}
+}
+@media (min-width:768px){
+	.container{width:750px;}
+	.modal-dialog{width:480px;}
+	/* ---------main-------------- */
+	.main #videoHW h1{
+		position: absolute;
+		top:12%;
+		left:10%;
+	}	
+	.main #videoHW div{
+		width: 69px;
+		position: absolute;
+		top:40%;
+		left:20%;
+		overflow: hidden;
+	}
+	.main a{color: #333;}
+}
+@media (min-width:1024px){
+	.container{width:1000px;}
+	.modal-dialog{width:960px;}
+	/* ---------main-------------- */
+	.main a{
+		position: relative;
+		display: block;
+		width:485px;
+		color: #FFF;
+	}
+	.main a h2{
+		position: absolute;
+		bottom: 60px;
+		left:25px;
+	}
+	.main a p{
+		opacity:0;
+		position: absolute;
+		bottom: -10px;
+		left: 25px;
+		font-size: 14px;
+		font-family: "黑体";
+		font-weight: bold;
+	}
+	.main #videoHW h1{
+		position: absolute;
+		top:16%;
+		left:35%;
+	}	
+	.main #videoHW div{
+		width: 69px;
+		position: absolute;
+		top:40%;
+		left:45%;
+		overflow: hidden;
+	}
+}
+@media (min-width:1492px){
+	.container{width:1440px;}
+}
+/* ----------navbar------------- */
+.navbar{background: #fff;}
+.navbar-text{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.navbar-nav > li > a{padding-bottom: 10px;}
+.navbar-brand{padding: 5px 15px;}
+/* --------homepage------------ */
+.homepage{
+	height: 540px;
+	padding-top: 135px;
+	background: url(../img/homepage_banner_bg_hc2017.jpg) no-repeat left center;
+}
+.homepage button{margin-top: 20px;}
+/* ---------main-------------- */
+.main #videoHW{width: 100%;}
+.main #videoHW h1{color:#fff;}
+/* ---------news-------------- */
+.news{background: #F5F5F5;}
+.news h3,.news a{color: #333;}
+.news h3{width: 100px;}
+.news a{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 1.6;
+}
+.news a:hover{
+	color: #006ad0;
+	text-decoration: underline;
+}
+.news span{
+	color: #8F8F8F;
+	display: block;
+}
+.news div:first-child li{
+	line-height: 1.8;
+	margin-top: 20px;
+}
+/* --------footer------------- */
+@media (min-width: 768px){
+	.footer .navbar-toggle {display: block;}	
+}
+.footer .navbar-toggle{float: left;}
+.footer{background: #272727;}
+.footer div:first div p{color: #F5F5F5;}
+.footer a,.footer p{color:#F5F5F5;}
